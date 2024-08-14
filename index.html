@@ -4,44 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haruka</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <h1>heading 1</h1>
-        <nav aria-label="contents">
-            <ol>
-                <li><a href="#">nav A</a></li>
-                <li><a href="#">nav B</a></li>
-                <li><a href="#">nav C</a></li>
-            </0l>
-        </nav>
+        <h1>PAGE TITLE</h1>
     </header>
     <main>
-        <section>
-            <h2>heading 2</h2>
-            <p>This is first section. I created this page on <time datetime="2024-08-13">August 13rd</time>.</p>
-        </section>
-        <article>
-            <h3>heading 3</h3>
-            <p>This is article 1. Our classes start from <time datetime="16:00">16:00</time> to <time datetime="21:00">21:00</time>.</p>
+        <nav aria-label="contents" class="nav1">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="bg-white"></div>
+        <div class="bg-dark">
+            <div id="left">
+        <article class="box-1">
+            <h2>Article One</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipscing elit. Proin aliquet, nulla ac fermentum sollicitudin, velit magna faucibus felis, et consequat velit metus ut enim. Duis varius vestibulum ord, eget ultrices arcu imperdiet nec. Ut hendrerit neque enim, sit amet posuere metus ultrices vel. Sed ac fringilla eroos.Maecenas quis est ac dui blandit laoreet nonvel enim. Duis ullamcorper sit amet dolor id egestas.</p>
         </article>
-        <section>
-            <h2>heading 2</h2>
-            <p>This is second section.</p>
+        <div class="inline-block"><p>Image 1</p></div>
+        <div class="inline-block"><p>Image 2</p></div>
+        <div class="inline-block"><p>Image 3</p></div>
+            </div>
+        <section id="right">
+            <h2>Projects</h2>
+            <ul>
+                <li>January 2024</li>
+                <li>December 2023</li>
+                <li>November 2023</li>
+                <li>October 2023</li>
+                <li>September 2023</li>
+            </ul>
         </section>
-        <aside>
-            <h4>heading 4</h4>
-            <p>This is aside which is related to the main content.</p>
-        </aside>
-    </main>
+
+    </div>
+    <div class="bg-white"></div>
     <footer>
         <!--comments practice-->
-        <p>FOOTER</p>
-        <ul aria-label="references">
-            <li><a href="#">reference 1</a></li>
-            <li><a href="#">reference 2</a></li>
-        </ul>
-        <p>&#169 2024 Haruka Arai</p>
+        <p>&#169 My Website | <a href="#">Privacy Policy</a></p>
     </footer>
 </body>
 </html>
